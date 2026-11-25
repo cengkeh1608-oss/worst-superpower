@@ -51,9 +51,18 @@ Kompetisi resolved kedua (dari winner_patterns.md): **apology** (u-kiencx, 1.695
 - [x] RULES.txt dibaca (bundle biasa, bukan sealed recording)
 - [x] Riset final 2 kompetisi resolved
 - [x] 32 draf + turnamen 28 pasangan (drafts.md)
-- [ ] main.ts ditulis (≥2 write/edit) + verifikasi byte-identical 2x
-- [ ] makefun init + commit (root commit HANYA .makefun)
-- [ ] gh repo create + push, verifikasi HEAD == origin
+- [x] main.ts ditulis (≥2 write/edit) + verifikasi byte-identical 2x
+- [x] makefun init + commit (root commit HANYA .makefun)
+- [x] gh repo create + push, verifikasi HEAD == origin
 - [ ] Lapor parent (parent bundle + submit)
+
+## Hasil akhir (siap submit)
+- Repo: https://github.com/cengkeh1608-oss/worst-superpower
+- Commit: 01ffce37b082cbb231c855084221aba1913474e3 (HEAD == origin, branch main)
+- Anchor drand: 82646fa087f4a916d630c0c2673542d2d339e3e9 (round 34275374)
+- Root commit 82646fa: HANYA .makefun. Commit 9a6e7f1: LICENSE MIT. Commit 01ffce3: main.ts + drafts.md + progress.md.
+- Teks final (126 karakter): "I can teleport to the exact spot where I left my keys, but only after I've already found them in the fridge, next to the milk."
+- Output: /output/entry.txt sha256 05cff9feed7f5594bf3bad9e1c967b65adbf706df2268f52f3376fb55bf0e156, byte-identical 2x dari cwd berbeda.
+- Turnamen: D25 7-0 (28 pasangan); finalis vs 3 pemenang resolved 0-3 (jujur — lihat drafts.md).
 
 ## Flags execution-risk: 0 (sejauh ini)
